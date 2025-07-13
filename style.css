@@ -148,3 +148,85 @@ header{
     display: block;
     color: #4E47FF;
 }
+
+#review{
+    margin: 70px 20px;
+    gap: 10px;
+}
+
+#heading{
+    text-align: center;
+}
+
+#users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#users div{
+    background-color: white;
+    border-radius: 5px;
+    height: 150px;
+    width: 300px;
+}
+
+#field{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    border: none;
+}
+
+#field h1{
+    font-size: 70px;
+}
+
+#field input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+#field textarea{
+    width: 300px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+
+#footer{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+
+#footer #head{
+
+    display: flex;
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+}
+
+#footer #para{
+    display: flex;
+    justify-content: center;
+}
+
+#footer nav ul{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+#footer nav ul:hover{
+    color: green;
+    font-size: 1.2em;
+}
