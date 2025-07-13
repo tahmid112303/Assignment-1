@@ -75,6 +75,31 @@ header{
 }
 
 #box{
-    
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    background-color: aqua;
 }
 
+#box #div1{
+    width: 50%;
+    border: 2px solid black;
+    text-align: left;
+}
+
+#box #div1 h1{
+    font-weight: bold;
+}
+
+#box #div1 h3{
+    color: grey;
+}
+
+#box #div1 button{
+    background-color: #4E47FF;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
