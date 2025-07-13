@@ -76,14 +76,13 @@ header{
 
 #box{
     display: flex;
-    margin: 30px;
-    padding: 10px;
-    background-color: aqua;
+    margin: 50px;
+    padding: 30px;
+    height: 300px;
 }
 
 #box #div1{
     width: 50%;
-    border: 2px solid black;
     text-align: left;
 }
 
@@ -97,9 +96,27 @@ header{
 
 #box #div1 button{
     background-color: #4E47FF;
-    width: 150px;
+    width: 250px;
     height: 50px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+#box #div1 button:hover{
+    transition: 0.5s;
+    background-color: turquoise;
+}
+#box #div2{
+    width: 50%;
+    text-align: right;
+}
+
+#box #div2 img{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 50%;
+    height: 300px;
 }
