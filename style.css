@@ -14,7 +14,7 @@ nav li button{
     background-color: #4E47FF;
     padding: 10px;
     font-weight: bold;
-    width: 100px;
+    width: 120px;
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -46,6 +46,8 @@ header{
 
 #banner h1{
     text-align: center;
+    font-weight: bold;
+    font-size: 100px;
 }
 
 #btn{
@@ -55,10 +57,18 @@ header{
 }
 
 #btn button{
-    width: 120px;
+    width: 150px;
     background-color: #4E47FF;
     padding: 10px;
     color: white;
     border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#btn button:hover{
+    transition: 0.5s;
+    background-color: turquoise;
+    cursor: pointer;
 }
 
