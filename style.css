@@ -18,6 +18,7 @@ nav li button{
     border-radius: 10px;
     cursor: pointer;
     color: white;
+    height: 50px;
 }
 
 nav li button:hover{
@@ -57,6 +58,7 @@ header{
 }
 
 #btn button{
+    height: 50px;
     width: 150px;
     background-color: #4E47FF;
     padding: 10px;
